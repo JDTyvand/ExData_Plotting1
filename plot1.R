@@ -26,7 +26,7 @@ png(filename = "plot1.png") # Default 480x480 pixels (as required)
 
 hist(hpc$Global_active_power, col = "red", 
      main = "Global Active Power",
-     xlab = "Global Active Power (kilowatts")
+     xlab = "Global Active Power (kilowatts)")
 
 ## Close the png graphic device
 dev.off() 
